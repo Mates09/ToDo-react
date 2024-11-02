@@ -14,12 +14,14 @@ Setup
 
     bash
 
-git clone [<repository-url>](https://github.com/Mates09/ToDo-react)
+    
+```bash
+$ git clone https://github.com/Mates09/ToDo-react
+```
+
+
 
 Install dependencies:
-
-bash
-
 
 ```bash
 npm install
@@ -33,10 +35,11 @@ npm run dev
 ```
 
 Usage
+
 Adding Tasks
 
     Click the “Add Task” button to open a modal form.
-    Enter the task title and select a priority level.
+    Enter the task title, date and select a priority level.
     Submit the form to add the task to the list.
 
 Managing Task Status
@@ -53,12 +56,6 @@ Filtering by Priority
 
 Customization
 
-    Styling: Modify App.css to adjust colors, layout, or typography.
-    Data Storage: Update dataHandler.js if integrating with a different storage backend.
-    Additional Features: Add components under components/ for new functionality.
-
-Future Improvements
-
-    User Authentication: Secure tasks with user-specific access.
-    Drag-and-Drop Interface: Implement drag-and-drop to rearrange task statuses.
-    API Integration: Replace data.json with a live backend for real-time data syncing.
+    Styling: Modify style.css to adjust colors, layout, or typography.
+    or use app.css to get cyberpunk style of app
+   

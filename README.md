@@ -20,13 +20,17 @@ Install dependencies:
 
 bash
 
+
+```bash
 npm install
+```
 
 Start the application:
 
-bash
 
-    npm start
+```bash
+npm run dev
+```
 
 Usage
 Adding Tasks

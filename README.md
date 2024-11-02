@@ -1,24 +1,12 @@
  To-Do App Documentation
 Overview
 
-This project is a responsive, modern To-Do application built with React. The app includes task categorization, status management, priority filtering, and a JSON-based local storage system. The design uses a colorful, dark-themed, and minimalistic interface with hover and modal effects.
-Features
+Basit ToDo app in React
 
-    Task Management: Users can add, edit, delete, and manage task statuses (“To Do,” “In Progress,” “Done”).
-    Priority Filtering: Filter tasks by priority level to manage tasks based on importance.
-    Responsive Design: Layout adapts to various screen sizes, stacking columns vertically on smaller screens.
-    Modern UI: Features a modal-based form, hover effects, color gradients, and flexible button states.
+   Task Management: Users can add, edit, delete, and manage task statuses (“To Do,” “In Progress,” “Done”).
+    Priority Filtering: Filter tasks by priority level to manage tasks based on importance,
     Persistent Storage: Tasks are saved in a data.json file (serving as a mock database), updated dynamically.
 
-Folder Structure
-
-Key Components
-
-    App.js: The main component initializing the app layout, fetching data, and managing global state.
-    TaskList.js: Organizes tasks into columns based on their status (To Do, In Progress, Done).
-    TaskCard.js: Displays individual task information, allowing for status changes, priority filtering, and deletion.
-    AddTaskModal.js: Handles task addition through a popup modal with basic form validation.
-    dataHandler.js: Utility functions for reading and writing to data.json, simulating a database.
 
 Setup
 
@@ -26,7 +14,7 @@ Setup
 
     bash
 
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/Mates09/ToDo-react)
 
 Install dependencies:
 
@@ -39,8 +27,6 @@ Start the application:
 bash
 
     npm start
-
-    JSON Storage (data.json): Ensure data.json exists in src/data/ with initial data or an empty array ([]). Changes to tasks will persist in this file.
 
 Usage
 Adding Tasks

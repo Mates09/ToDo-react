@@ -20,6 +20,7 @@ $ git clone https://github.com/Mates09/ToDo-react
 Install dependencies:
 
 ```
+cd ToDo-react
 npm install
 ```
 

@@ -8,7 +8,7 @@ function TaskCard({ task, updateTaskStatus, deleteTask }) {
       <h3 className="task-card-info-title">{truncateTitle(task.title)}</h3>
       <br />
       <div className="task-card-info">
-        <p>Due: {task.dueDate || "N/A"}</p>
+        <p>Due: {task.dueDate}</p>
         <p>Status: {task.status}</p>
         <p>Priority: {task.priority}</p>
       </div>

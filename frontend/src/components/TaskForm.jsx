@@ -13,6 +13,11 @@ function TaskForm({ addTask }) {
       return;
     }
 
+    if (dueDate.trim() < new Date().toISOString().split("T")[0]) {
+      setError("Due date must be today or later");
+      return;
+    }
+
     const newTask = {
       id: Date.now(),
       title,
